@@ -1,0 +1,55 @@
+
+body {
+	font-family: "Comic Sans MS", Helvetica, Arial;
+	font-size: 19px;
+}
+
+/**HEADER**/
+#header-nav {
+	background-color: #a6a6a6;
+	border: 2px solid black;
+}
+#header-nav a {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #000;
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+#header-nav button {
+border: 2px solid black;
+}
+.nav-link {
+	color: black;
+	border: 1px solid black;
+	padding: 0;
+}
+/**END HEADER**/
+
+/**HOME PAGE**/
+
+h1 {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 175%;
+	font-weight: bold;
+}
+#contentboxes {
+	background-color: #a6a6a6;
+	padding: 20px;
+	margin: auto;
+}
+#contentboxes h4 {
+	font-weight: bold;
+}
+
+/**END HOME PAGE**/
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+	#contentboxes {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
